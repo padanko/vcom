@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>スキャン - VCOM</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>VCOM</h1>
+    <form action="/scan"><input type="submit" value="検索"><input type="text" name="query"></form>
+    <hr>
+    <ul>
+      {% for s in URLs %}
+      <li><a href="{{s.thrurl}}">{{s.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

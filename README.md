@@ -1,0 +1,2 @@
+# VCOM
+Open2ch内のLiveJupiterという板のスレッドを検索するソフトウェア
